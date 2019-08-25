@@ -7,11 +7,11 @@ const randomTimeZone = () => {
 }
 
 const randomDate = () => {
-  let time = moment(new Date());
+  let date = moment(new Date());
   let timeZone = randomTimeZone();
-  let date = time.tz(timeZone);
+  let dateWithTZ = date.tz(timeZone);
   let dateObject = {
-    date: date.format(),
+    date: dateWithTZ.format(),
     timezone: timeZone
   }
 
