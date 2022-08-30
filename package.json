@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "moment-timezone": "^0.5.26"
+    "moment-timezone": "^0.5.35"
   }
 }
